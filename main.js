@@ -6,6 +6,11 @@ const firstName = 'Lata';
 let flower = 'rose';
 let tree = 'maple';
 //Which value does x have after execution of the following code?
-let x = 'Tic';
-x = 'Tac';
-x = 'Toe';
+//let x = 'Tic';
+//x = 'Tac';
+//x = 'Toe';
+//Which value does x have after execution of the following code?  
+let x = 'Laurel';
+let y = 'Hardy';
+let z = 'y';
+x = z;

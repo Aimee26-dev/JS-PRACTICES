@@ -14,3 +14,14 @@ let x = 'Laurel';
 let y = 'Hardy';
 let z = 'y';
 x = z;
+//Define a function hello that returns 'Hello world
+function hello(){
+    return "Hello world!";
+  }
+  //Define two functions. The first function a should return 'Hello a!' and the second function b should return 'Hello b!'
+  function a(){
+    return 'Hello a!'
+  }
+  function b(){
+    return 'Hello b!'
+  }

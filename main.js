@@ -25,3 +25,9 @@ function hello(){
   function b(){
     return 'Hello b!'
   }
+
+//Define a function greet returning the value  'Haydo!'   Declare a variable salutation Call the function greet and assign the result of the call to the variable salutation.
+function greet(){
+  return 'Haydo!';
+}
+const salutation = greet();

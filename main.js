@@ -49,12 +49,12 @@ function greet(){
 const salutation = greet();
 console.log(salutation);
 
-//Definir une fonction hello
+/*Definir une fonction hello
 function hello(){
   return 'Hi';
 }
 let x = hello();
-console.log(x);
+console.log(x);*/
 
 //Write a function echo that also returns the passed parameter. echo('Greta') should return 'Greta' and echo('CO2') should return 'CO2
 function echo(){
@@ -66,3 +66,10 @@ function echo(){
   return 'CO2';
 }
 console.log(echo());
+
+//Definir la fonction reply
+function reply(phrase){
+  return phrase; 
+}
+let x = reply('How do you do?');
+console.log(x);

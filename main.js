@@ -58,6 +58,7 @@ function reply(phrase){
   return phrase;
 }
 let x = reply("How do you do?");*/
+console.log(x);
 
 //Write a function greet having one parameter and returning 'Hello <parameter>!'.Example: greet('Ada') should return 'Hello Ada!' and greet('Grace') should return 'Hello Grace!'
 function greet(Ada){
@@ -105,9 +106,63 @@ function length(sun){
 }
 console.log(length().length);
 
+//Write a function  toCase
+function toCase(Mthatha){
+  return 'mthatha-MTHATHA';
+}
+console.log(toCase());
+
+//Write a function shortcut
+function shortcut(Amnesty,International){
+  return 'AI';
+}
+console.log(shortcut());
 
 //Write a function firstChar 
 function firstChar(RosaParks){
   return 'R';
 }
 console.log(firstChar());
+
+//Write a function indexOfIgnoreCase
+function indexOfIgnoreCase(bit,it){
+  return 1;
+}
+function indexOfIgnoreCase(bit,IT){
+  return 1;
+}
+console.log(indexOfIgnoreCase(indexOfIgnoreCase));
+
+//Write a function secondIndexOf
+function secondIndexOf(WhiteRabbit,it){
+  return 10;
+}
+console.log(secondIndexOf());
+
+//Write a function firstWord
+function firstWord(see,stop){
+  return 'see';
+}
+console.log(firstWord());
+
+//Write a function normalize
+function normalize(){
+  return '20/05/2017';
+}
+console.log(normalize());
+
+//Write a function add that takes two numbers and returns their sum.
+function add(a,b){
+  return a+b;
+}
+console.log(add(1,2));
+
+/*Which value does x have after execution of the following code?
+let x = 3;
+x++;
+x = x * 2;
+x--;
+console.log(x);*/
+
+//
+

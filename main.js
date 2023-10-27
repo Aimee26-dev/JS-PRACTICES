@@ -1,12 +1,17 @@
 //Declare a variable firstName and initialize it with the value 'Lata'
 const firstName = 'Lata';
+console.log(firstName);
 
 //Which value does x have after execution of the following code?
 //let x = 'Geeta';
+console.log(x);
 
 //Declare a variable flower and assign it the value 'rose'. Declare a second variable tree and assign it the value 'maple'
 let flower = 'rose';
+console.log(flower);
 let tree = 'maple';
+
+console.log(tree);
 
 //Which value does x have after execution of the following code?
 //let x = 'Tic';
@@ -28,6 +33,8 @@ function hello(){
   function a(){
     return 'Hello a!';
   }
+  console.log(a());
+
   function b(){
     return 'Hello b!';
   }
